@@ -21,5 +21,5 @@ from weatherapp.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',home)
+    path('',include('weatherapp.urls'))
 ]

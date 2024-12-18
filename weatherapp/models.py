@@ -10,4 +10,5 @@ class FavouriteCity(models.Model):
   def __str__(self):
     return self.city_name
   
+
   
